@@ -28,12 +28,19 @@ const CV = {
   formation: [
     { when: "2022",           what: "Baccalauréat technique" },
     { when: "2023 – 2024",    what: "Cycle préparatoire (PT)" },
-    { when: "2025 – présent", what: "Cycle ingénieur en génie civil", where: "ENIS · Sfax" },
+    { when: "2025 – 2027", what: "Cycle ingénieur en génie civil", where: "ENIS · Sfax" },
   ],
   experiences: [
     { when: "2 mois", what: "Stage ouvrier",    where: "Entreprise de Saïd Fakhfakh" },
     { when: "1 mois", what: "Stage technicien", where: "Bureau d’études Moalla Anouar" },
-    { when: "1 mois", what: "Stage technicien", where: "SCAM" },
+    { when: "1 mois", what: "Stage technicien", where: "Bureau d’études SCAM" },
+  ],
+  // Formations que j’ai animées (moi le formateur)
+  teaching: [
+    { when: "YouTube", what: "Formateur — série de formations vidéo",
+      where: "Formation conçue et animée par moi",
+      url: "https://www.youtube.com/playlist?list=PLHeHdC0Jwbeo",
+      urlLabel: "▶ Voir la playlist ↗" },
   ],
   skills: [
     { title: "Génie civil",
